@@ -1,15 +1,10 @@
-# coder-project-template
+# coder-teleport-example
 
-An example template for building a custom [Coder](https://coder.com/docs) workspace around a project. This includes:
+An example Coder workspace with support for [Teleport](https://goteleport.com/teleport/download/)
 
-* Coder workspace template - `.coder/coder.yaml`
-* Custom image for Coder - `.coder/img`
-* GitHub Actions CI for building the custom image - `.github/workflows/build-image.yaml`
-* Sample "app code" in `src/`
+## Fork it yourself
 
-## Set up
-
-1. Use this template to [create your own repository](https://github.com/bpmct/coder-project-template/generate)
+1. Fork repo
 1. Add [secrets](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) to the repository with your [Docker Hub](https://hub.docker.com/) account details:
 
         DOCKERHUB_USERNAME (your username for Docker Hub)
