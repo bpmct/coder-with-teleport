@@ -2,7 +2,7 @@
 
 An example Coder workspace with support for [Teleport](https://goteleport.com/teleport/download/)
 
-## Fork it yourself
+## Customize it
 
 1. Fork repo
 1. Add [secrets](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) to the repository with your [Docker Hub](https://hub.docker.com/) account details:
