@@ -20,7 +20,7 @@ workspace:
       value: 
         - name: "Clone the git repository, if it doesn't exist"
           env:
-            GIT_REMOTE: https://github.com/bpmct/coder-teleport.git
+            GIT_REMOTE: git@github.com:bpmct/coder-with-teleport.git
             CLONE_TO: /home/coder/coder-teleport
           command: |
             # Check if the project directory already exists 
