@@ -2,6 +2,10 @@
 
 An example Coder workspace with support for [Teleport](https://goteleport.com/teleport/download/)
 
+## Open it
+
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://stable.cdr.dev/wac/build?template_oauth_service=github&template_url=https://github.com/bpmct/coder-with-teleport&template_ref=main&template_filepath=.coder/coder.yaml)
+
 ## Customize it
 
 1. Fork repo
