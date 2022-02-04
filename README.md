@@ -4,7 +4,14 @@ An example Coder workspace with support for [Teleport](https://goteleport.com/te
 
 ## Open it
 
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://stable.cdr.dev/wac/build?template_oauth_service=github&template_url=https://github.com/bpmct/coder-with-teleport&template_ref=main&template_filepath=.coder/coder.yaml)
+```sh
+1) Navigate to your Coder deployment
+2) New Workspace > From template
+
+Repository URL: https://github.com/bpmct/bookshop-monorepo
+Branch: main (default)
+Template: ./.coder/coder.yaml (default)
+```
 
 ## Customize it
 
