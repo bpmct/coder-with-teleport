@@ -11,6 +11,9 @@ RUN curl https://deb.releases.teleport.dev/teleport-pubkey.asc | sudo apt-key ad
     apt-get update && \
     apt install teleport
 
+# Uncomment to auto-set the Teleport proxy URL
+# ENV TELEPORT_PROXY=https://teleport.mycompany.com
+
 # Add kubectl
 RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && \
     chmod +x ./kubectl && \
